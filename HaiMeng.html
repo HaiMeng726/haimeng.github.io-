@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网页名称</title>
+		<!--添加样式，可以在里面为文字、图片等添加样式如：文字大小，图片宽度，字体显示等等-->
+		<style type="text/css">
+		
+			/*为标签<span>添加格式*/
+			span{
+				white-space: nowrap;      /*不允许换行*/
+            	overflow: hidden;         /*超出部分隐藏*/
+            	text-overflow: ellipsis; /*超出部分用省略号*/
+            	display: block;/*把标签设置为块,只有块才能设置宽度*/
+            	width: 220px;/*设置宽度，超出这个宽度的文字将隐藏，并显示省略号*/
+            	
+            	font-size: 20px;/*设置字体大小*/
+            	font-family: "微软雅黑";/*设置显示字体*/
+            	text-indent: 2em;
+            	
+			}
+			/*为图片设置格式*/
+			.img-style{
+				border-radius: 15px;  /*图片四周圆角*/
+				width: 220px;/*设置图片宽度*/
+			}
+			table {
+				  border-top: 1px solid red;
+				  border-bottom: 2px dotted blue;
+				  border-left: 3px double green;
+				  border-right: 4px groove orange;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<table border="10" align="center" cellpadding="10" cellspacing="10">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>
